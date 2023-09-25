@@ -1,5 +1,9 @@
-export default function Footer() {
-  <div>
-    Anders Helle Malling 2023
-  </div>
+function MyFooter() {
+  return (
+    <div className="text-center items-end">
+      Anders Helle Malling 2023
+    </div>
+  )
 }
+
+export default MyFooter;
