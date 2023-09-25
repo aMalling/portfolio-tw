@@ -1,6 +1,6 @@
 import MyFooter from "./components/footer.jsx"
 
-
+/// skift alle links til assests når der skal buildes
 export default function App() {
   return (
     <div className=" w-screen h-screen">
