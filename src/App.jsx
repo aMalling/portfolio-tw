@@ -8,11 +8,12 @@ export default function App() {
       Anders Helle Malling alling dev yooohuu - tag lidt fra den gamle repo
     </h1> */}
     <div className="flex min-h-full items-center justify-center">
-      <div className="shadow drop-shadow-2xl p-2">
-        <img className="h-96 border-2 border-gray-800 rounded-full rounded-tr-3xl" src="src\assets\Billede Ansøgning.jpg" alt="billede af Anders"></img>
+      <div className="shadow drop-shadow-2xl p-2 ">
+        <img className="h-96 border-2 border-gray-800 rounded-full rounded-tr-3xl" src="src\assets\ANDMAL.jpg" alt="billede af Anders"></img>
         <p className="text-lg font-semibold ">Anders Helle Malling</p>
         <p className="text-md italic">Fullstack Webdeveloper</p>
-        <div>React, Vuejs, Typescript, Tailwind, Flask, SQLserver</div>
+        <div className="text-xs">React, Vuejs, Typescript, Tailwind, Flask, SQLserver</div>
+
       </div>
     </div>
     <h2 className="text-center text-xl font-bold ">Portfolio:</h2>
