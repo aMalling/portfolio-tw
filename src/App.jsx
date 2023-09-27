@@ -19,7 +19,7 @@ export default function App() {
     <h2 className="text-center text-xl font-bold ">Portfolio:</h2>
     <div className="flex min-h-full items-center justify-center">
   
-      <div className="grid grid-cols-2 grid items-center drop-shadow-2xl p-2">
+      <div className="grid grid-cols-2 items-center drop-shadow-2xl p-2">
         <span className="col-span-1 ml-52 px-3 italic ">auctor augue mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl</span>
         <img className="col-span-1 h-96 mr-52 px-3 border-2 border-gray-800" src="src\assets\ss-webapp1.png" alt="Screenshot of med app" />
         <div className="col-span-1"></div> 
@@ -31,9 +31,25 @@ export default function App() {
 
         </div>
         
+      </div>
+      
     </div>
-    </div>
-  
+    <div className="grid grid-cols-2 items-center drop-shadow-2xl p-2">
+      <div className="ml-52">
+        <img className="col-span-1 h-96  px-3 border-2 border-gray-800" src="src\assets\ss-webapp2.png" alt="Screenshot of med app" />
+        <div className="col-span-1"></div> 
+        <div className="flex py-2">
+          <p className="mr-2 ">Stack: </p>
+          <img src="src\assets\vuejs icon.jpg" alt="vueicon"/>
+          <img src="src\assets\typescript icon.png" alt="tsicon"/>
+          <img className="bg-white"src="src\assets\tailwind icon.png" alt="twicon"/>
+
+        </div>
+        </div>
+        <span className="col-span-1 mr-52 px-3 italic ">auctor augue mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl</span>
+        
+        
+      </div>
     <MyFooter />
     </div> 
   )
