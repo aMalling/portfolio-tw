@@ -23,7 +23,7 @@ export default function App() {
         </div>
       </div>
       <h2 className="text-center text-2xl font-bold ">Portfolio:</h2>
-      <div className="flex min-h-full items-start mt-12">
+      <div className="flex items-start mt-12">
         <div className="grid grid-cols-2 items-center drop-shadow-2xl p-2">
           <div className="flex flex-col px-3 ml-52 justify-center h-96">
             <h3 className="text-xl left font-bold ">AuhKraeft.rm.dk </h3>
@@ -34,39 +34,40 @@ export default function App() {
               fermentum odio eu feugiat pretium nibh ipsum consequat nisl
             </div>
           </div>
+          <div className="mr-52">
+            <img
+              className="col-span-1 h-96 px-3 border-2 border-gray-800"
+              src="src\assets\ss-webapp1.png"
+              alt="Screenshot of med app"
+            />
 
-          <img
-            className="col-span-1 h-96 mr-52 px-3 border-2 border-gray-800"
-            src="src\assets\ss-webapp1.png"
-            alt="Screenshot of med app"
-          />
-          <div className="col-span-1"></div>
-          <div className="flex py-2">
-            <p className="mr-2 ">Stack: </p>
-            <img
-              src="src\assets\vuejs icon.jpg"
-              className="h-16 mr-1 rounded-full"
-              alt="vueicon"
-            />
-            <img
-              src="src\assets\typescript icon.png"
-              className="h-16 mr-1 rounded-full"
-              alt="tsicon"
-            />
-            <img
-              src="src\assets\tailwind icon.png"
-              className="bg-white h-16 rounded-full"
-              alt="twicon"
-            />
-            <img
-              src="src\assets\github_logo.png"
-              className="bg-white h-16 rounded-full ml-96"
-              alt="github logo and link"
-            />
+            <div className="flex py-2">
+              <p className="mr-2 ">Stack: </p>
+              <img
+                src="src\assets\vuejs icon.jpg"
+                className="h-16 mr-1 rounded-full"
+                alt="vueicon"
+              />
+              <img
+                src="src\assets\typescript icon.png"
+                className="h-16 mr-1 rounded-full"
+                alt="tsicon"
+              />
+              <img
+                src="src\assets\tailwind icon.png"
+                className="bg-white h-16 rounded-full"
+                alt="twicon"
+              />
+              <img
+                src="src\assets\github_logo.png"
+                className="bg-white h-16 rounded-full ml-80"
+                alt="github logo and link"
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 drop-shadow-2xl p-2">
+      <div className="mt-24 grid grid-cols-2 drop-shadow-2xl p-2">
         <div className="ml-52">
           <img
             className="col-span-1 h-96 px-3 border-2 border-gray-800"
@@ -93,7 +94,7 @@ export default function App() {
             />
             <img
               src="src\assets\github_logo.png"
-              className="bg-white h-16 rounded-full ml-96"
+              className="bg-white h-16 rounded-full ml-80"
               alt="github logo and link"
             />
           </div>
@@ -105,6 +106,50 @@ export default function App() {
             ac orci phasellus egestas tellus rutrum tellus pellentesque eu
             tincidunt tortor aliquam nulla facilisi cras fermentum odio eu
             feugiat pretium nibh ipsum consequat nisl
+          </div>
+        </div>
+      </div>
+      <div className="flex items-start mt-12">
+        <div className="grid grid-cols-2 items-center drop-shadow-2xl p-2">
+          <div className="flex flex-col px-3 ml-52 justify-center h-96">
+            <h3 className="text-xl left font-bold ">PsykologNanna.dk </h3>
+            <div className=" italic ">
+              auctor augue mauris augue neque gravida in fermentum et
+              sollicitudin ac orci phasellus egestas tellus rutrum tellus
+              pellentesque eu tincidunt tortor aliquam nulla facilisi cras
+              fermentum odio eu feugiat pretium nibh ipsum consequat nisl
+            </div>
+          </div>
+          <div className="mr-52">
+            <img
+              className="col-span-1 h-96 px-3 border-2 border-gray-800"
+              src="src\assets\ss-webapp3.png"
+              alt="Screenshot of med app"
+            />
+
+            <div className="flex py-2">
+              <p className="mr-2 ">Stack: </p>
+              <img
+                src="src\assets\vuejs icon.jpg"
+                className="h-16 mr-1 rounded-full"
+                alt="vueicon"
+              />
+              <img
+                src="src\assets\typescript icon.png"
+                className="h-16 mr-1 rounded-full"
+                alt="tsicon"
+              />
+              <img
+                src="src\assets\tailwind icon.png"
+                className="bg-white h-16 rounded-full"
+                alt="twicon"
+              />
+              <img
+                src="src\assets\github_logo.png"
+                className="bg-white h-16 rounded-full ml-80  "
+                alt="github logo and link"
+              />
+            </div>
           </div>
         </div>
       </div>
