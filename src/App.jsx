@@ -12,7 +12,7 @@ export default function App() {
         <div className="shadow drop-shadow-2xl p-2 ">
           <img
             className="h-96 border-2 border-gray-800 rounded-full rounded-tr-3xl"
-            src="src\assets\ANDMAL.jpg"
+            src="assets\ANDMAL.jpg"
             alt="billede af Anders"
           ></img>
           <p className="text-lg font-semibold ">Anders Helle Malling</p>
@@ -37,30 +37,30 @@ export default function App() {
           <div className="mr-52">
             <img
               className="col-span-1 h-96 px-3 border-2 border-gray-800"
-              src="src\assets\ss-webapp1.png"
+              src="assets\ss-webapp1.png"
               alt="Screenshot of med app"
             />
 
             <div className="flex py-2">
               <p className="mr-2 ">Stack: </p>
               <img
-                src="src\assets\vuejs icon.jpg"
+                src="assets\vuejs icon.jpg"
                 className="h-16 mr-1 rounded-full"
                 alt="vueicon"
               />
               <img
-                src="src\assets\typescript icon.png"
+                src="assets\typescript icon.png"
                 className="h-16 mr-1 rounded-full"
                 alt="tsicon"
               />
               <img
-                src="src\assets\tailwind icon.png"
+                src="assets\tailwind icon.png"
                 className="bg-white h-16 rounded-full"
                 alt="twicon"
               />
               <img
-                src="src\assets\github_logo.png"
-                className="bg-white h-16 rounded-full ml-80"
+                src="assets\github_logo.png"
+                className="bg-white h-16 rounded-full ml-[21rem]"
                 alt="github logo and link"
               />
             </div>
@@ -71,30 +71,40 @@ export default function App() {
         <div className="ml-52">
           <img
             className="col-span-1 h-96 px-3 border-2 border-gray-800"
-            src="src\assets\ss-webapp2.png"
+            src="assets\ss-webapp2.png"
             alt="Screenshot of med app"
           />
           <div className="col-span-1"></div>
           <div className="flex py-2">
             <p className="mr-2 ">Stack: </p>
             <img
-              src="src\assets\react-icon.png"
-              className="bg-white h-16 mr-1 rounded-full"
-              alt="vueicon"
+              src="assets\react-icon.png"
+              className="bg-white h-16 p-1 mr-1 rounded-full"
+              alt="vue icon"
             />
             <img
-              src="src\assets\typescript icon.png"
+              src="assets\typescript icon.png"
               className="h-16 mr-1 rounded-full"
-              alt="tsicon"
+              alt="ts icon"
             />
             <img
-              src="src\assets\tailwind icon.png"
+              src="assets\mongodb-logo.png"
+              className="h-16 mr-1 rounded-full"
+              alt="mongodb icon"
+            />
+            <img
+              src="assets\express-logo.png"
+              className="h-16 mr-1 rounded-full bg-white"
+              alt="express icon"
+            />
+            <img
+              src="assets\tailwind icon.png"
               className="bg-white h-16 rounded-full"
-              alt="twicon"
+              alt="tw icon"
             />
             <img
-              src="src\assets\github_logo.png"
-              className="bg-white h-16 rounded-full ml-80"
+              src="assets\github_logo.png"
+              className="bg-white h-16 rounded-full ml-48"
               alt="github logo and link"
             />
           </div>
@@ -123,30 +133,35 @@ export default function App() {
           <div className="mr-52">
             <img
               className="col-span-1 h-96 px-3 border-2 border-gray-800"
-              src="src\assets\ss-webapp3.png"
+              src="assets\ss-webapp3.png"
               alt="Screenshot of med app"
             />
 
             <div className="flex py-2">
               <p className="mr-2 ">Stack: </p>
               <img
-                src="src\assets\vuejs icon.jpg"
+                src="assets\vuejs icon.jpg"
                 className="h-16 mr-1 rounded-full"
                 alt="vueicon"
               />
               <img
-                src="src\assets\typescript icon.png"
+                src="assets\typescript icon.png"
                 className="h-16 mr-1 rounded-full"
                 alt="tsicon"
               />
               <img
-                src="src\assets\tailwind icon.png"
+                src="assets\express-logo.png"
+                className="h-16 mr-1 rounded-full bg-white"
+                alt="express icon"
+              />
+              <img
+                src="assets\tailwind icon.png"
                 className="bg-white h-16 rounded-full"
                 alt="twicon"
               />
               <img
-                src="src\assets\github_logo.png"
-                className="bg-white h-16 rounded-full ml-80  "
+                src="assets\github_logo.png"
+                className="bg-white h-16 rounded-full ml-64  "
                 alt="github logo and link"
               />
             </div>
