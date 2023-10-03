@@ -36,7 +36,7 @@ export default function App() {
           </div>
           <div className="mr-52">
             <img
-              className="col-span-1 h-96 px-3 border-2 border-gray-800"
+              className="col-span-1 h-96 border-2 border-gray-800"
               src="assets\ss-webapp1.png"
               alt="Screenshot of med app"
             />
@@ -70,7 +70,7 @@ export default function App() {
       <div className="mt-24 grid grid-cols-2 drop-shadow-2xl p-2">
         <div className="ml-52">
           <img
-            className="col-span-1 h-96 px-3 border-2 border-gray-800"
+            className="col-span-1 h-96  border-2 border-gray-800"
             src="assets\ss-webapp2.png"
             alt="Screenshot of med app"
           />
@@ -132,7 +132,7 @@ export default function App() {
           </div>
           <div className="mr-52">
             <img
-              className="col-span-1 h-96 px-3 border-2 border-gray-800"
+              className="col-span-1 h-96 border-2 border-gray-800"
               src="assets\ss-webapp3.png"
               alt="Screenshot of med app"
             />
