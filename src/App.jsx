@@ -1,17 +1,17 @@
 import MyFooter from "./components/footer.jsx";
+import MyNavBar from "./components/navbar";
 
 /// skift alle links til assests når der skal buildes
 
 export default function App() {
   return (
     <div className=" w-screen h-screen">
-      {/*     <h1 className="py-4 mt-0 shadow-sm text-3xl font-bold underline justify-center text-center items-start">
-                  Anders Helle Malling alling dev yooohuu - tag lidt fra den gamle repo
-                </h1> */}
-      <div className="flex min-h-full items-center justify-center">
+      <MyNavBar />
+
+      <div className="flex h-5/6 mb-24 items-center justify-center">
         <div className="shadow drop-shadow-2xl p-2 ">
           <img
-            className="h-96 border-2 border-gray-800 rounded-full rounded-tr-3xl"
+            className="h-96 border-2 rounded-full rounded-tr-3xl border-gray-800"
             src="assets\ANDMAL.jpg"
             alt="billede af Anders"
           ></img>
