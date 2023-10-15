@@ -9,16 +9,21 @@ export default function App() {
       <MyNavBar />
 
       <div className="flex h-5/6 mb-24 items-center justify-center">
-        <div className="shadow drop-shadow-2xl p-2 ">
+        <div className="w-3/5 h-auto grid grid-cols-2   p-2 ">
+          <div className="flex-row items-center justify-center  p-5">
+            <p className="text-4xl font-bold mt-5">Fullstack Webdeveloper</p>
+            <p className="text-lg font-semibold text text-gray-500 mt-4">
+              Hello! im Anders Helle Malling a passioned webDeveloper based in
+              Aarhus, Denmark
+            </p>
+          </div>
           <img
             className="h-96 border-2 rounded-full rounded-tr-3xl border-gray-800"
             src="assets\ANDMAL.jpg"
             alt="billede af Anders"
           ></img>
-          <p className="text-lg font-semibold ">Anders Helle Malling</p>
-          <p className="text-md italic">Fullstack Webdeveloper</p>
-          <div className="text-xs">
-            React, Vuejs, Typescript, Tailwind, Flask, SQLserver
+          <div className="text ml-5 col-span-2">
+            Tech Stack : React, Vuejs, Typescript, Tailwind, Flask, SQLserver
           </div>
         </div>
       </div>
