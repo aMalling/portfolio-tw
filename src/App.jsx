@@ -89,11 +89,13 @@ export default function App() {
       </div>
       <div className="mt-24 grid grid-cols-2 drop-shadow-2xl p-2">
         <div className="ml-52">
-          <img
-            className="col-span-1 h-96  border-2 border-gray-800"
-            src="assets\ss-webapp2.png"
-            alt="Screenshot of med app"
-          />
+          <a className="cursor-pointer" href="https://bajer-bixen.vercel.app/">
+            <img
+              className="col-span-1 h-96 border-2 border-gray-800"
+              src="assets\ss-webapp2.png"
+              alt="Screenshot of med app"
+            />
+          </a>
           <div className="col-span-1"></div>
           <div className="flex py-2">
             <p className="mr-2 ">Stack: </p>
@@ -124,13 +126,13 @@ export default function App() {
             />
             <img
               src="assets\github_logo.png"
-              className="bg-white h-16 rounded-full ml-48"
+              className="bg-white h-16 rounded-full ml-32"
               alt="github logo and link"
             />
           </div>
         </div>
         <div className="flex flex-col px-3 mr-52 justify-center h-96">
-          <h3 className="text-xl left font-bold ">BajerBixen.dk </h3>
+          <h3 className="text-xl left font-bold ">BajerBixen </h3>
           <div className=" italic ">
             auctor augue mauris augue neque gravida in fermentum et sollicitudin
             ac orci phasellus egestas tellus rutrum tellus pellentesque eu
