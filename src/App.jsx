@@ -11,8 +11,10 @@ export default function App() {
       <div className="h-screen w-screen mx-3 md:mx-0 overflow-x-hidden md:overflow-auto">
         <div className="flex md:h-full mb-24 items-center justify-center">
           <div className=" md:w-4/5 h-auto flex-row md:grid grid-cols-2 p-2 ">
-            <div className="flex-row items-center justify-center  p-5">
-              <p className="text-4xl font-bold mt-5">Fullstack Webdeveloper</p>
+            <div className="flex-row items-center justify-center p-5 pt-0">
+              <p className="text-4xl font-bold mt-5 md:mt-0">
+                Fullstack Webdeveloper
+              </p>
               <p className="text-lg font-semibold text-gray-500 mt-4">
                 Welcome to Vanaheim, your go-to destination for all your web
                 development needs! I'm Anders Helle Malling, a passionate and
@@ -82,12 +84,12 @@ export default function App() {
                 />
                 <img
                   src="assets\tailwind icon.png"
-                  className="bg-white h-16 rounded-full"
+                  className="bg-white mr-1 h-16 rounded-full"
                   alt="twicon"
                 />
                 <img
                   src="assets\github_logo.png"
-                  className="bg-white h-16 rounded-full ml-[21rem]"
+                  className="bg-white h-16 rounded-full "
                   alt="github logo and link"
                 />
               </div>
@@ -129,23 +131,18 @@ export default function App() {
                 alt="ts icon"
               />
               <img
-                src="assets\mongodb-logo.png"
-                className="h-16 mr-1 rounded-full"
-                alt="mongodb icon"
-              />
-              <img
                 src="assets\next-js_icon.png"
                 className="h-16 mr-1 rounded-full bg-white"
                 alt="nextjs icon"
               />
               <img
                 src="assets\tailwind icon.png"
-                className="bg-white h-16 rounded-full"
+                className="bg-white mr-1 h-16 rounded-full"
                 alt="tw icon"
               />
               <img
                 src="assets\github_logo.png"
-                className="bg-white h-16 rounded-full ml-32"
+                className="bg-white h-16 rounded-full"
                 alt="github logo and link"
               />
             </div>
@@ -199,12 +196,12 @@ export default function App() {
               />
               <img
                 src="assets\tailwind icon.png"
-                className="bg-white h-16 rounded-full"
+                className="bg-white h-16 mr-1 rounded-full"
                 alt="twicon"
               />
               <img
                 src="assets\github_logo.png"
-                className="bg-white h-16 rounded-full ml-64  "
+                className="bg-white h-16 rounded-full  "
                 alt="github logo and link"
               />
             </div>
