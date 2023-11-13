@@ -10,9 +10,9 @@ function MyNavBar() {
         <h2 className="text-xl ml-2 inline">Vanaheim</h2>
       </div>
       <div className="flex-none col-start-11 col-span-2 items-center">
-        <a className="p-1 ml-3 font-medium">CV</a>
-        <a className="p-1 ml-3 font-medium">Contact</a>
-        <a className="p-1 ml-3 font-medium">About</a>
+        <a className="hidden p-1 ml-3 font-medium">CV</a>
+        <a className="hidden p-1 ml-3 font-medium">Contact</a>
+        <a className="hidden p-1 ml-3 font-medium">About</a>
         <img
           src="assets\tailwind icon.png"
           className="ml-2 h-10 p-1 inline"

@@ -46,18 +46,25 @@ export default function App() {
         <h2 className="text-center text-2xl font-bold ">Portfolio:</h2>
         <div className="flex items-start mt-12 ">
           <div className="flex-row md:grid grid-cols-2 items-center drop-shadow-2xl p-2 ">
-            <div className="flex flex-col px-3 md:ml-52 justify-center md:h-96">
-              <h3 className="text-xl left font-bold ">AuhKraeft.rm.dk </h3>
+            <div className="flex flex-col pr-8 pb-1 md:ml-52 justify-center md:h-96">
+              <h3 className="text-xl left font-bold cursor-not-allowed line-through  ">
+                AuhKraeft.rm.dk{" "}
+              </h3>
               <div className=" italic ">
-                auctor augue mauris augue neque gravida in fermentum et
-                sollicitudin ac orci phasellus egestas tellus rutrum tellus
-                pellentesque eu tincidunt tortor aliquam nulla facilisi cras
-                fermentum odio eu feugiat pretium nibh ipsum consequat nisl
+                Internal database CRUD application, with data from clinical
+                Oncological reasearch done at Aarhus University Hostpital. This
+                application is designed to serve three distinct user groups:
+                doctors and research personnel responsible for conducting
+                research, staff members at the Oncological Clinic where
+                experimental research takes place, and management personnel
+                overseeing the operations. Consequently, the application offers
+                three levels of access and functionalities, each meticulously
+                crafted to cater to the unique needs of these user groups
               </div>
             </div>
             <div className=" md:mr-52">
               <img
-                className="col-span-1 w-11/12 border-2 border-gray-800"
+                className="col-span-1 w-11/12 border-2 border-gray-800 cursor-not-allowed "
                 src="assets\ss-webapp1.png"
                 alt="Screenshot of med app"
               />
@@ -88,7 +95,7 @@ export default function App() {
           </div>
         </div>
         <div className="mt-24 flex-row md:grid grid-cols-2 drop-shadow-2xl p-2">
-          <div className="flex md:hidden flex-col px-3 md:mr-52 justify-center ">
+          <div className="flex md:hidden flex-col pr-8 md:mr-52 justify-center ">
             <h3 className=" text-xl font-bold ">BajerBixen </h3>
             <div className=" italic ">
               auctor augue mauris augue neque gravida in fermentum et
@@ -143,7 +150,7 @@ export default function App() {
               />
             </div>
           </div>
-          <div className="hidden md:flex  flex-col px-3 md:mr-52 justify-center h-96">
+          <div className="hidden md:flex flex-col px-3 md:mr-52 justify-center h-96">
             <h3 className=" text-xl font-bold ">BajerBixen </h3>
             <div className=" italic ">
               auctor augue mauris augue neque gravida in fermentum et
@@ -153,10 +160,12 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div className="flex items-start mt-12 mx-6 md:mx-0"></div>
-        <div className="md:grid grid-cols-2 items-center drop-shadow-2xl p-2">
-          <div className="flex flex-col px-3 md:ml-52 justify-center md:h-96">
-            <h3 className="text-xl left font-bold ">PsykologMalling.dk </h3>
+
+        <div className="md:grid grid-cols-2 mt-12 items-center drop-shadow-2xl p-2">
+          <div className="flex flex-col pr-8 md:ml-52 justify-center md:h-96">
+            <h3 className="text-xl cursor-not-allowed font-bold line-through ">
+              PsykologMalling.dk{" "}
+            </h3>
             <div className=" italic ">
               auctor augue mauris augue neque gravida in fermentum et
               sollicitudin ac orci phasellus egestas tellus rutrum tellus
@@ -166,7 +175,7 @@ export default function App() {
           </div>
           <div className="md:mr-52">
             <img
-              className="col-span-1 md:h-96 w-11/12 border-2 border-gray-800"
+              className="col-span-1 w-11/12 border-2 border-gray-800 cursor-not-allowed"
               src="assets\ss-webapp3.png"
               alt="Screenshot of med app"
             />
