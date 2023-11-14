@@ -50,10 +50,7 @@ export default function App() {
           <div className="flex-row md:grid grid-cols-2 items-center drop-shadow-2xl p-2 ">
             <div className="flex flex-col pr-8 pb-1 md:ml-52 justify-center md:h-96">
               <h3 className="text-xl left font-bold ">AuhKraeft.rm.dk</h3>
-              <span className="font-semibold bg-black p-2 pt-1 text-yellow-500">
-                Not suiteable for phones - since its not going to be accessable
-                through phones anyway for security reasons.
-              </span>
+
               <div className=" italic ">
                 Internal database CRUD application, with data from clinical
                 Oncological reasearch done at Aarhus University Hostpital. This
@@ -65,6 +62,10 @@ export default function App() {
                 three levels of access and functionalities, each meticulously
                 crafted to cater to the unique needs of these user groups
               </div>
+              <span className="font-semibold bg-black p-2 pt-1 text-yellow-500">
+                Not suiteable for phones - since its not going to be accessable
+                through phones anyway for security reasons.
+              </span>
             </div>
             <div className=" md:mr-52">
               <a
