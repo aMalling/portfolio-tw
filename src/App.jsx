@@ -49,9 +49,11 @@ export default function App() {
         <div className="flex items-start mt-12 ">
           <div className="flex-row md:grid grid-cols-2 items-center drop-shadow-2xl p-2 ">
             <div className="flex flex-col pr-8 pb-1 md:ml-52 justify-center md:h-96">
-              <h3 className="text-xl left font-bold cursor-not-allowed line-through  ">
-                AuhKraeft.rm.dk{" "}
-              </h3>
+              <h3 className="text-xl left font-bold ">AuhKraeft.rm.dk</h3>
+              <span className="font-semibold bg-black p-2 pt-1 text-yellow-500">
+                Not suiteable for phones - since its not going to be accessable
+                through phones anyway for security reasons.
+              </span>
               <div className=" italic ">
                 Internal database CRUD application, with data from clinical
                 Oncological reasearch done at Aarhus University Hostpital. This
@@ -65,11 +67,16 @@ export default function App() {
               </div>
             </div>
             <div className=" md:mr-52">
-              <img
-                className="col-span-1 w-11/12 border-2 border-gray-800 cursor-not-allowed "
-                src="assets\ss-webapp1.png"
-                alt="Screenshot of med app"
-              />
+              <a
+                className="cursor-pointer"
+                href="https://kfeappen-clone.vercel.app/"
+              >
+                <img
+                  className="col-span-1 w-11/12 border-2 border-gray-800"
+                  src="assets\ss-webapp1.png"
+                  alt="Screenshot of med app"
+                />
+              </a>
               <div className="flex py-2">
                 <p className="mr-2 ">Stack: </p>
                 <img
