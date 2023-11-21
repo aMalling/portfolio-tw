@@ -106,18 +106,18 @@ export default function App() {
         </div>
         <div className="mt-24 flex-row md:grid grid-cols-2 drop-shadow-2xl p-2">
           <div className="flex md:hidden flex-col pr-8 md:mr-52 justify-center ">
-            <h3 className=" text-xl font-bold ">BajerBixen </h3>
+            <h3 className=" text-xl font-bold ">BajerBiksen </h3>
             <div className=" italic ">
-              auctor augue mauris augue neque gravida in fermentum et
-              sollicitudin ac orci phasellus egestas tellus rutrum tellus
-              pellentesque eu tincidunt tortor aliquam nulla facilisi cras
-              fermentum odio eu feugiat pretium nibh ipsum consequat nisl
+              BajerBiksen is a local business that every year make a chrismas
+              beercalender, they hand pick 24 beers and pack for their
+              customers. They wanted a novel and playfull way of revealing the
+              beers one day at the time. So that what i made for them...
             </div>
           </div>
           <div className="md:ml-52">
             <a
               className="cursor-pointer"
-              href="https://bajer-bixen.vercel.app/julekalenderen"
+              href="https://bajer-biksen.vercel.app/"
             >
               <img
                 className="col-span-1 w-11/12 border-2 border-gray-800"
