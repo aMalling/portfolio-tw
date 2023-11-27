@@ -117,7 +117,7 @@ export default function App() {
           <div className="md:ml-52">
             <a
               className="cursor-pointer"
-              href="https://bajer-biksen.vercel.app/"
+              href="https://julekalenderen.vercel.app/"
             >
               <img
                 className="col-span-1 w-11/12 border-2 border-gray-800"
